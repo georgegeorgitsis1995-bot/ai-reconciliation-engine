@@ -12,3 +12,5 @@ reports/
 
 # VS Code settings
 .vscode/
+# Input data files
+Files/
