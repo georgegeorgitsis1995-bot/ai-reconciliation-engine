@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+
+# Generated reports
+reports/
+
+# VS Code settings
+.vscode/

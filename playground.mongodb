@@ -1,0 +1,12 @@
+use("ai_recon");
+
+const bank_rf_count = db.bank_transactions.countDocuments({
+  rf: "RF97907738000300014972049"
+});
+
+const scheme_total = db.scheme_transactions.countDocuments({});
+const bank_total   = db.bank_transactions.countDocuments({});
+
+print("Bank count for RF RF97907738000300014972049:", bank_rf_count);
+print("Total scheme records:", scheme_total);
+print("Total bank records:", bank_total);

@@ -1,0 +1,2 @@
+db.scheme_transactions.drop();
+db.bank_transactions.drop();
